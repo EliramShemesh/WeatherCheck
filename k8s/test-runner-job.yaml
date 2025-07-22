@@ -1,0 +1,12 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: test-runner
+spec:
+  template:
+    spec:
+      restartPolicy: Never
+      containers:
+      - name: test-runner
+        image: test-runner:latest
+        imagePullPolicy: Never
