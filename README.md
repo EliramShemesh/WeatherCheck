@@ -1,6 +1,3 @@
-Sure! Here's a **shorter, GitHub-ready** `README.md` file:
-
----
 
 ```markdown
 # 🌦️ Weather API + Kubernetes Test Job
